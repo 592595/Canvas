@@ -20,9 +20,20 @@
                 context.lineTo(100,700)
                 context.lineTo(100,100)
 
+                /* 画出三角形 蓝色边框*/
                 context.lineWidth=5
                 context.strokeStyle="#005588"
                 context.stroke()
+
+                /*为三角形填充内容*/
+                context.fillstyle="rgb(2,100,30)"
+                context.fill()
+
+                /*为三角形添加红色边框同时蓝色被覆盖*/
+                context.lineWidth=5/*线条是5像素宽*/
+                context.strokeStyle="red"
+                context.stroke()
+
             }
             else{
                 alert("当前浏览fjhwuirfhcw")
